@@ -1,0 +1,22 @@
+{
+  "schema_version": "1",
+  "id": "a2a",
+  "display_name": "A2A Dispatch Rig",
+  "version": "1.0.0",
+  "namespace": "project.a2a",
+  "backend": {
+    "entry_point": "agentforge_a2a.plugin:register",
+    "routes_prefix": "",
+    "resource_providers": []
+  },
+  "agents": [
+    { "name": "caller-agent", "path": "agentforge_a2a/agents/caller_agent" },
+    { "name": "callee-agent", "path": "agentforge_a2a/agents/callee_agent" }
+  ],
+  "frontend": {
+    "remote_url": "",
+    "nav_label": "",
+    "nav_icon": "",
+    "route": ""
+  }
+}
