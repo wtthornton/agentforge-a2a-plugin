@@ -1,7 +1,7 @@
 ---
 name: caller-agent
 namespace: project.a2a.caller-agent
-description: Upstream-side marker agent for AgentForge A2A dispatch smoke. Deterministic transform prefixes input with "called->"; no LLM, no delegation logic of its own. Exists so /invoke/project.a2a/group/caller-agent resolves to a real AgentConfig.
+description: Upstream-side marker agent for AgentForge A2A dispatch smoke. Deterministic transform prefixes input with "called->"; no LLM, no delegation logic of its own. Exists so /invoke/project/a2a/caller-agent resolves to a real AgentConfig.
 keywords: [a2a, dispatch, test, caller]
 utterances:
   - delegate to callee
