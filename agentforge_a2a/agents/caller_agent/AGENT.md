@@ -8,7 +8,6 @@ utterances:
   - test a2a caller
 model: sonnet
 memory_profile: none
-runner: agentforge_a2a.agents.caller_agent.runner:CallerRunner
 ---
 
 # Caller Agent

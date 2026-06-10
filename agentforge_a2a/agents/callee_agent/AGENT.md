@@ -8,7 +8,6 @@ utterances:
   - test a2a callee
 model: sonnet
 memory_profile: none
-runner: agentforge_a2a.agents.callee_agent.runner:CalleeRunner
 ---
 
 # Callee Agent
